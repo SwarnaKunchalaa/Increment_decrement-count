@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#main{
+    border: 2px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#box{
+   display: flex;
+   justify-content: center;
+ 
+}
+.change,#zero,#reset{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+#zero{
+    padding: 5px 7px;
+    width: 30px;
+    text-align: center;
+}
